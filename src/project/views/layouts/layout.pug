@@ -7,8 +7,11 @@ html(lang=app.lang)
     title #{ meta.title } | #{ app.name }
     meta(name="description", content=`${meta.description || app.description}`)
     meta(name="keywords", conent=`${meta.keywords || app.keywords}`)
-    meta(name="generator" content=`nera - ${process.env.npm_package_version}`)
-    meta(name="robots" content=`${meta.robots || app.robots}`)
+    meta(name="generator", content=`nera - ${process.env.npm_package_version}`)
+    meta(name="robots", content=`${meta.robots || app.robots}`)
+    link(href="/main.css", rel="stylesheet")
 
   body
     block content
+
+    script(src="/main.js")
