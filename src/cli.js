@@ -10,7 +10,7 @@ export function cli(args) {
 
         if (fs.existsSync(path.dirname('/project'))) {
             ncp.limit = 16
-            ncp('./node_modules/nera-npm/src/project', '.', error => {
+            ncp('./node_modules/@nera-npm/src/project', '.', error => {
                 if (error) {
                     return console.log(error)
                 }
@@ -45,7 +45,7 @@ export function cli(args) {
         const nodemon = require('nodemon')
 
         nodemon({
-            script: './node_modules/nera-npm/index.js',
+            script: './node_modules/@nera-npm/index.js',
             ext: 'js,md,pug,yaml,css',
             ignore: 'public/'
         })
