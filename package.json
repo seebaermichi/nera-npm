@@ -1,10 +1,10 @@
 {
-  "name": "@nera/nera",
-  "version": "1.0.0",
+  "name": "@nera-npm/nera",
+  "version": "1.0.1",
   "description": "Nera is a really simple static site generator. It creates static html files out of Markdown files.",
   "main": "src/index.js",
   "bin": {
-    "@nera/nera": "bin/nera",
+    "@nera-npm/nera": "bin/nera",
     "nera": "bin/nera"
   },
   "publishConfig": {

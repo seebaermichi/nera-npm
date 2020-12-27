@@ -7,9 +7,10 @@ Markdown files.
 
 ```bash
 mkdir new-nera-project
+cd new-nera-project
 
 # Install dependencies
-npm install @nera/nera
+npm install @nera-npm/nera
 
 # Install project structure
 nera install
