@@ -17,11 +17,11 @@ npm install @nera-npm/nera
 # Install project structure
 nera install
 
-# Run local server (browser-sync)
-nera serve
-
 # Render the static files
 nera render
+
+# Run local server (browser-sync)
+nera serve
 
 # Local development
 nera watch
