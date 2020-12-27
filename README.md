@@ -6,8 +6,10 @@ Markdown files.
 > Make sure you run at least Node version 10.2 on your system
 
 ```bash
+# Create project directory and initialize npm
 mkdir new-nera-project
 cd new-nera-project
+npm init -y
 
 # Install dependencies
 npm install @nera-npm/nera
