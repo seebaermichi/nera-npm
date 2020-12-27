@@ -1,0 +1,59 @@
+{
+  "name": "@nera/nera",
+  "version": "1.0.0",
+  "description": "Nera is a really simple static site generator. It creates static html files out of Markdown files.",
+  "main": "src/index.js",
+  "bin": {
+    "@nera/nera": "bin/nera",
+    "nera": "bin/nera"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "lint": "eslint --ignore-path .gitignore ."
+  },
+  "keywords": [
+    "nera",
+    "nera-project",
+    "static-site-generator",
+    "ssg",
+    "blog",
+    "website",
+    "Markdown",
+    "Html"
+  ],
+  "author": "Michael <contact@m3-webdesign.de> (https://github.com/seebaermichi)",
+  "license": "ISC",
+  "engines": {
+    "node": ">=10.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/seebaermichi/nera-npm"
+  },
+  "dependencies": {
+    "browser-sync": "^2.26.13",
+    "esm": "^3.2.25",
+    "fs-readdir-recursive": "^1.1.0",
+    "markdown-it": "^8.4.2",
+    "markdown-it-github-preamble": "^1.0.0",
+    "markdown-it-meta": "^0.0.1",
+    "ncp": "^2.0.0",
+    "nodemon": "^2.0.6",
+    "pretty": "^2.0.0",
+    "pug": "^2.0.4",
+    "read-yaml": "^1.1.0",
+    "rimraf": "^2.7.1"
+  },
+  "devDependencies": {
+    "acorn": "^8.0.4",
+    "eslint": "^7.16.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^5.0.0",
+    "husky": "^4.3.6"
+  }
+}
