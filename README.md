@@ -1,4 +1,8 @@
 # Nera - a lightweight static site generator
+
+> [!WARNING]
+> **Deprecated and archived.** This early attempt at an npm-installable Nera (2020) was never released and is no longer maintained.
+> Current Nera: [nera.js.org](https://nera.js.org) · [`@nera-static/nera`](https://www.npmjs.com/package/@nera-static/nera) · [seebaermichi/nera](https://github.com/seebaermichi/nera).
 Nera is a really simple static site generator. It creates static html files out of  
 Markdown files.
 
